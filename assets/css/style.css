@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-
+/* universal styles*/
 
 body {
     color: #39a6b2;
@@ -14,6 +14,16 @@ body {
 section {
     padding: 60px;
 }
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* universal styles*/
 
 header {
     padding: 20px 35px;
@@ -100,7 +110,7 @@ header nav ul li a {
 }
 /* hero style end */
 
-/* what we do section */
+/* what we do section start*/
 .intro {
     text-align: center;
 }
@@ -121,8 +131,8 @@ header nav ul li a {
     width: 80%;
     margin: 0 auto;
 }
-
-/*what you do section*/
+/* what we do section END*/
+/*what you do section start*/
 
 .steps {
     text-align: center;
@@ -169,7 +179,49 @@ header nav ul li a {
 .steps span {
     font-size: 38px;
 }
+/*what you do section END*/
+/*meet the trainers start*/
 
+.trainers {
+    text-align: center;
+}
+
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+/*meet the trainers END*/
 
 
 
